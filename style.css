@@ -1,0 +1,31 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* styles */
+
+.header {
+    background-image: linear-gradient(to right, #18a0be, #622db9);
+}
+
+.Logo{
+
+}
+
+.dd-toggle {
+
+}
+
+.dd-toggle__icon {
+
+}
+
+.dd-toggle__img {
+
+}
+
+.dd-toggle__text {
+
+}
