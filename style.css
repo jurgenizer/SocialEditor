@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+button {
+    border: initial;
+    background-color: initial;
+}
+
 /* styles */
 
 .header {
