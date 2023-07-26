@@ -9,6 +9,7 @@ button {
     background-color: initial;
     color: inherit;
     font: inherit;
+    outline:none; /* make sure there is a visual indicator for focus state */
 }
 
 
@@ -48,8 +49,18 @@ button {
     background-color: rgba(255,255,255, 0.07);
 }
 
-.dd-toggl:nth-of-type(4) {
+.dd-toggle:focus {
+    color:#fff;
+    background-color: rgba(255,255,255, 0.07);
+}
+
+.dd-toggle:nth-of-type(4) {
     margin-left: auto;
+}
+
+.dd-toggle:last-child {
+    display: flex;
+    align-items: center;
 }
 
 .dd-toggle__icon {
