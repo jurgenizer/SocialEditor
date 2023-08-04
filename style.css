@@ -25,6 +25,19 @@ button {
     }
 }
 
+/* keyframes */
+@keyframes fade-in-from-left {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+
 
 /* base styles */
 .app {
@@ -103,6 +116,8 @@ button {
 .sidebar {
     background-color: #10171a;
     width: 75px;
+    display: flex;
+    flex-direction: column;
 }
 
 .menu {
@@ -116,6 +131,20 @@ button {
     flex-direction: column;
     width: 100%;
     align-items: center;
+    transition: all 0,4s;
+    animation: fade-in-from-left 0.5s;
+}
+
+.menu__button:hover {
+    background-color: #2b363b;
+    color: #fff;
+    cursor: pointer;
+}
+
+.menu__button:focus {
+    background-color: #2b363b;
+    color: #fff;
+    cursor: pointer;
 }
 
 .menu__button--active {
@@ -142,6 +171,18 @@ button {
 .menu__text {
     font-weight: 500;
     font-size: 12px;
+}
+
+.footer {
+    margin-top: auto;
+    margin-bottom: 60px;
+    transform: rotate(-90deg);
+}
+
+.copyright {
+    color: rgba(255,255,255,0.15);
+    font-size: 12px;
+    white-space: nowrap;
 }
 
 
