@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 button {
@@ -191,6 +192,47 @@ button {
 .panel {
     background-color: #2b363c;
     width: 350px;
+    padding: 15px 31px;
+}
+
+.panel__top {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #4b5155;
+    padding-bottom: 12px;
+}
+
+.first-heading {
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+.panel__collapse-icon {
+    color: #6b7276;
+    cursor:pointer;
+}
+
+.panel__images {
+    padding: 25px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.panel__img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.panel__btn {
+
+}
+
+.panel__upload-icon {
+
 }
 
 /* --------------------- */
