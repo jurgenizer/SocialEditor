@@ -288,6 +288,9 @@ height: 50px;
 background-color: #fff;
 border-bottom: 1px solid #d6dde1;
 padding: 0 30px;
+display :flex;
+align-items: center;
+justify-content: space-between;
 }
 
 .breadcrumbs {
@@ -322,4 +325,10 @@ font-weight: 500;
     letter-spacing: 1px;
     padding: 8px 20px;
     cursor: pointer;
+    border-radius: 500px;
+    transition: all 0.4s;
+}
+
+.button:hover, button:focus {
+    background-color: #26438d;
 }
