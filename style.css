@@ -332,3 +332,70 @@ font-weight: 500;
 .button:hover, button:focus {
     background-color: #26438d;
 }
+
+.artboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh -50px -55px);
+}
+
+.canvas {
+    height: 57.5vh;
+    width: 48.6vw;
+    position: relative;
+}
+
+.canvas__bg-img {
+height: 100%;
+width: 100%;
+object-fit:cover;
+opacity: 0.15;
+border: 1px solid white;
+border-radius: 3px;
+}
+
+.canvas__fg-img {
+    height:75%;
+    width:78%;
+    object-fit:cover;
+    border-radius: 3px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+}
+
+.canvas__circle {
+
+}
+
+.canvas__circle:nth-of-type(1) {
+    
+}
+
+.canvas__circle:nth-of-type(2) {
+    
+}
+
+.canvas__circle:nth-of-type(3) {
+    
+}
+
+.canvas__circle:nth-of-type(4) {
+    
+}
+
+.tools {
+    height: 57.5vh;
+}
+
+.tool {
+
+
+}
+
+.tool__icon {
+
+}
